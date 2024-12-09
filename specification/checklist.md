@@ -24,13 +24,13 @@
 - [x] shadcn/uiコンポーネント使用計画 (specification/component/shadcn-ui.md)
 
 ## 環境整備
-- [ ] Biomeの設定
-  - [ ] `.biome.json`の作成
-  - [ ] フォーマットルールの設定
-  - [ ] リントルールの設定
-- [ ] lefthookの設定
-  - [ ] `lefthook.yml`の作成
-  - [ ] コミット前のフォーマット・リントチェックの設定
+- [x] Biomeの設定
+  - [x] `.biome.json`の作成
+  - [x] フォーマットルールの設定
+  - [x] リントルールの設定
+- [x] lefthookの設定
+  - [x] `lefthook.yml`の作成
+  - [x] コミット前のフォーマット・リントチェックの設定
 - [ ] shadcn/uiの設定
   - [ ] インストールと初期設定
   - [ ] 必要なコンポーネントの追加
