@@ -3,7 +3,7 @@ import type { NextRequest } from 'next/server';
 
 export const runtime = 'edge';
 
-export async function GET(request: NextRequest) {
+export async function GET(_request: NextRequest) {
   const responseText = 'Hello World';
 
   // In the edge runtime you can use Bindings that are available in your application
