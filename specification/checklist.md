@@ -21,6 +21,7 @@
 - [x] TODOリストコンポーネント設計 (specification/component/todo-list.md)
 - [x] TODOアイテムコンポーネント設計 (specification/component/todo-item.md)
 - [x] 達成率グラフコンポーネント設計 (specification/component/achievement-graph.md)
+- [x] shadcn/uiコンポーネント使用計画 (specification/component/shadcn-ui.md)
 
 ## 環境整備
 - [ ] Biomeの設定
@@ -33,6 +34,16 @@
 - [ ] shadcn/uiの設定
   - [ ] インストールと初期設定
   - [ ] 必要なコンポーネントの追加
+    - [ ] サイドバー関連（Sidebar）
+    - [ ] レイアウト系（Sheet, Separator, Card, ScrollArea）
+    - [ ] フォーム系（Form, Input, Button, Checkbox, Select, Badge, Calendar, Popover）
+    - [ ] フィードバック系（Toast, Dialog, Progress）
+    - [ ] その他（DropdownMenu, Tooltip）
+  - [ ] カラーテーマの設定
+    - [ ] サイドバー用カラー変数の追加
+    - [ ] ダークモード対応
+  - [ ] アニメーション設定
+  - [ ] アクセシビリティ対応
 
 ## DB設定
 - [ ] drizzleの設定
