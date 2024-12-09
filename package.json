@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "biome lint .",
     "format": "biome format --write ./src",
-    "check": "biome check --write ./src",
+    "check": "biome check --write --unsafe ./src",
     "pages:build": "bunx @cloudflare/next-on-pages",
     "preview": "bun pages:build && wrangler pages dev",
     "deploy": "bun pages:build && wrangler pages deploy",
