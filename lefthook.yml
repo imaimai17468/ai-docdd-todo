@@ -1,23 +1,18 @@
-# EXAMPLE USAGE:
-#
-#   Refer for explanation to following link:
-#   https://github.com/evilmartians/lefthook/blob/master/docs/configuration.md
+pre-commit:
+  parallel: true
+  commands:
+    fix:
+      glob: "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}"
+      run: bun biome format --write --no-errors-on-unmatched {staged_files} && git update-index --again
+    check:
+      glob: "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}"
+      run: bun biome check --write --no-errors-on-unmatched {staged_files} && git update-index --again
+    type:
+      glob: "*.{ts,tsx}"
+      run: bun tsc --noEmit
 
 pre-push:
   commands:
     check:
-      tags: lint
-      run: bun run check
-
-pre-commit:
-  parallel: true
-  commands:
-    format:
-      glob: "*.{js,ts,jsx,tsx}"
-      run: bun run format --write {staged_files}
-    lint:
-      glob: "*.{js,ts,jsx,tsx}"
-      run: bun run lint --write {staged_files}
-    typecheck:
-      glob: "*.{js,ts,jsx,tsx}"
-      run: bunx tsc --noEmit {staged_files}
+      glob: "*.{js,ts,cjs,mjs,d.cts,d.mts,jsx,tsx,json,jsonc}"
+      run: bun biome check --no-errors-on-unmatched {staged_files}
