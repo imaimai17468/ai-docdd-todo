@@ -31,14 +31,14 @@
 - [x] lefthookの設定
   - [x] `lefthook.yml`の作成
   - [x] コミット前のフォーマット・リントチェックの設定
-- [ ] shadcn/uiの設定
-  - [ ] インストールと初期設定
-  - [ ] 必要なコンポーネントの追加
-    - [ ] サイドバー関連（Sidebar）
-    - [ ] レイアウト系（Sheet, Separator, Card, ScrollArea）
-    - [ ] フォーム系（Form, Input, Button, Checkbox, Select, Badge, Calendar, Popover）
-    - [ ] フィードバック系（Toast, Dialog, Progress）
-    - [ ] その他（DropdownMenu, Tooltip）
+- [x] shadcn/uiの設定
+  - [x] インストールと初期設定
+  - [x] 必要なコンポーネントの追加
+    - [x] サイドバー関連（Sidebar）
+    - [x] レイアウト系（Sheet, Separator, Card, ScrollArea）
+    - [x] フォーム系（Form, Input, Button, Checkbox, Select, Badge, Calendar, Popover）
+    - [x] フィードバック系（Toast, Dialog, Progress）
+    - [x] その他（DropdownMenu, Tooltip）
   - [ ] カラーテーマの設定
     - [ ] サイドバー用カラー変数の追加
     - [ ] ダークモード対応
