@@ -39,11 +39,6 @@
     - [x] フォーム系（Form, Input, Button, Checkbox, Select, Badge, Calendar, Popover）
     - [x] フィードバック系（Toast, Dialog, Progress）
     - [x] その他（DropdownMenu, Tooltip）
-  - [ ] カラーテーマの設定
-    - [ ] サイドバー用カラー変数の追加
-    - [ ] ダークモード対応
-  - [ ] アニメーション設定
-  - [ ] アクセシビリティ対応
 
 ## DB設定
 - [ ] drizzleの設定
